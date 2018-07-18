@@ -1,2 +1,4 @@
-# bahnhof_mystery
-Welcher Standort für einen Bahnhof auf dem Bödeli rund um Interlaken ist ideal?
+# Bahnhof Mystery
+Die Verkehrssituation auf dem Bödeli rund um Interlaken ist ziemlich verfahren. Abhilfe könnte ein neuer Zentralbahnhof am heutigen Standort des Jungfrau-Parks schaffen. Doch wie gut wäre der neue Bahnhof Mystery erreichbar? 
+
+Um das herauszufinden, werden mit dem untenstehenden Skript in der Programmiersprache Python die Daten der rund 10 400 auf [Openstreetmap](https://www.openstreetmap.org) verzeichneten Häuser von  Interlaken, Wilderswil, Bönigen, Unterseen, Ringgenberg, Matten und Gsteigwiler heruntergeladen – unabhängig davon, ob es sich um Wohnhäuser, Gewerbebauten oder Ställe handelt. In einem zweiten Schritt wird von jedem Haus aus der kürzeste Weg zu den beiden Bahnhöfen sowie zum vorgeschlagenen neuen Standort errechnet. Berücksichtigt werden alle Wege und Strassen; es wird nicht zwischen Fuss- und Velowegen sowie Autostrassen unterschieden. Nicht einbezogen werden die Topografie, das Verkehrsaufkommen sowie andere Verkehrseinschränkungen.
